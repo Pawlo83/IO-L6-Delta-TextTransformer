@@ -18,5 +18,5 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 ## Autorzy:
 - Paweł Skiba - [GitHub](https://github.com/Pawlo83)
 - Maciej Szymaniak - [GitHub](https://github.com/)
-- Szymon Tadych - [GitHub](https://github.com/)
+- Szymon Tadych - [GitHub](https://github.com/szymont20)
 - Kacper Zatoń - [GitHub](https://github.com/KacperZaton)
