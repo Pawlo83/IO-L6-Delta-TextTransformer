@@ -11,8 +11,16 @@ public class DeduplicateTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
-        // tutaj logika
-        return transformed;
+        String[] words = transformed.split(" ");
+        StringBuilder deduplicated = new StringBuilder();
+
+        for (int i = 0; i < words.length; i++) {
+            if (i == 0 || !words[i].equalsIgnoreCase(words[i - 1])) {
+                deduplicated.append(words[i]).append(" ");
+            }
+        }
+
+        return deduplicated.toString().trim();
     }
 
 }
