@@ -11,7 +11,7 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 - Jako użytkownik mogę rozwijać wybrane skróty do pełnych postaci (Pan Prof. spóźnił się na zajęcia -> Pan Profesor spóźnił się na zajęcia)
 - Jako użytkownik mogę eliminować powtarzające się wyrazy w bezpośrednim sąsiedztwie (Wyślij do do mnie wiadomość -> Wyślij do mnie wiadomość)
 
-## Requirements
+## Wymagania
 - Java 11 lub nowsza.
 - ...
 
