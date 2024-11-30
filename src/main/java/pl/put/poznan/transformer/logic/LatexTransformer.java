@@ -11,8 +11,17 @@ public class LatexTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
-        // tutaj logika
-        return transformed;
-    }
 
+        return transformed
+                .replace("\\", "\\textbackslash{}")
+                .replace("&", "\\&")
+                .replace("%", "\\%")
+                .replace("$", "\\$")
+                .replace("#", "\\#")
+                .replace("_", "\\_")
+                .replace("{", "\\{")
+                .replace("}", "\\}")
+                .replace("^", "\\textasciicircum{}")
+                .replace("~", "\\textasciitilde{}");
+    }
 }
