@@ -11,8 +11,32 @@ public class ExpandTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
-        // tutaj logika
-        return transformed;
+        String[] words = transformed.split(" ");
+        StringBuilder expanded = new StringBuilder();
+        boolean upper;
+        for (String word : words) {
+            upper = Character.isUpperCase(word.charAt(0));
+            switch (word.toLowerCase()){
+                case "prof.":
+                    expanded.append(upper ? "Profesor" : "profesor");
+                    break;
+                case "dr":
+                    expanded.append(upper ? "Doktor" : "doktor");
+                    break;
+                case "np.":
+                    expanded.append(upper ? "Na przykład" : "na przykład");
+                    break;
+                case "itd.":
+                    expanded.append(upper ? "I tak dalej." : "i tak dalej.");
+                    break;
+                default:
+                    expanded.append(word);
+                    break;
+            }
+            expanded.append(" ");
+        }
+
+        return expanded.toString().trim();
     }
 
 }
