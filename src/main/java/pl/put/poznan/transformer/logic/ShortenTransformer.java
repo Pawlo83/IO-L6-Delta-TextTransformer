@@ -11,29 +11,13 @@ public class ShortenTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
-        String[] words = transformed.split(" ");
-        StringBuilder shorten = new StringBuilder();
-        boolean upper;
-        for (String word : words) {
-            upper = Character.isUpperCase(word.charAt(0));
-            switch (word.toLowerCase()){
-                case "na przykład":
-                    shorten.append(upper ? "Np." : "np");
-                    break;
-                case "między innymi":
-                    shorten.append(upper ? "M.in." : "m.in.");
-                    break;
-                case "i tym podobne":
-                    shorten.append(upper ? "Itp." : "itp.");
-                    break;
-                default:
-                    shorten.append(word);
-                    break;
-            }
-            shorten.append(" ");
-        }
 
-        return shorten.toString().trim();
+        return transformed.replaceAll("na przykład","np.")
+                .replaceAll("Na przykład" , "Np.")
+                .replaceAll("między innymi" , "m.in.")
+                .replaceAll("Między innymi" , "M.in.")
+                .replaceAll("i tym podobne" , "itp.")
+                .replaceAll("I tym podobne" , "Itp.");
     }
 
 }
