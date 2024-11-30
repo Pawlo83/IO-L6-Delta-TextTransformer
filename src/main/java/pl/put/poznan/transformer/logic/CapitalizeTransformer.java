@@ -10,9 +10,7 @@ public class CapitalizeTransformer implements TextTransformer {
 
     @Override
     public String transform(String text) {
-        String transformed = base.transform(text);
-        // tutaj logika
-        return transformed;
+        return base.transform(text).substring(0, 1).toUpperCase() + text.substring(1);
     }
 
 }
