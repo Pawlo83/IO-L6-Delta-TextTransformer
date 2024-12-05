@@ -11,10 +11,10 @@
         <version>2.3.3.RELEASE</version>
     </parent>
 
-    <groupId>pl.put.poznan</groupId>
-    <artifactId>io-project-architecture</artifactId>
+    <groupId>IO-L6-Delta</groupId>
+    <artifactId>TextTransformer</artifactId>
     <version>0.1</version>
-
+	
 	<properties>
         <java.version>11</java.version>
     </properties>
