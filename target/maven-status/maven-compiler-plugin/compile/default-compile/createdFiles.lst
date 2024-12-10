@@ -1,0 +1,13 @@
+pl\put\poznan\transformer\logic\LatexTransformer.class
+pl\put\poznan\transformer\logic\LowerTransformer.class
+pl\put\poznan\transformer\logic\UpperTransformer.class
+pl\put\poznan\transformer\logic\CapitalizeTransformer.class
+pl\put\poznan\transformer\logic\NumbersTransformer.class
+pl\put\poznan\transformer\logic\DeduplicateTransformer.class
+pl\put\poznan\transformer\logic\ExpandTransformer.class
+pl\put\poznan\transformer\app\TextTransformerApplication.class
+pl\put\poznan\transformer\logic\ShortenTransformer.class
+pl\put\poznan\transformer\logic\BasicTransformer.class
+pl\put\poznan\transformer\logic\InverseTransformer.class
+pl\put\poznan\transformer\rest\TextTransformerController.class
+pl\put\poznan\transformer\logic\TextTransformer.class

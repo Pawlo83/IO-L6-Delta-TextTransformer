@@ -1,3 +1,13 @@
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/app/TextTransformerApplication.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/logic/TextTransformer.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\UpperTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\ExpandTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\InverseTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\LowerTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\ShortenTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\rest\TextTransformerController.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\LatexTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\app\TextTransformerApplication.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\DeduplicateTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\BasicTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\NumbersTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\TextTransformer.java
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java\pl\put\poznan\transformer\logic\CapitalizeTransformer.java

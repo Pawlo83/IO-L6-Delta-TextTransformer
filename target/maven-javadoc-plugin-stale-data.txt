@@ -1,0 +1,95 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.3.RELEASE/spring-boot-starter-web-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.3.RELEASE/spring-boot-starter-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.3.RELEASE/spring-boot-starter-logging-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar;C:/Users/Marek/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar;C:/Users/Marek/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar;C:/Users/Marek/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar;C:/Users/Marek/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar;C:/Users/Marek/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar;C:/Users/Marek/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.3.RELEASE/spring-boot-starter-json-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar;C:/Users/Marek/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar;C:/Users/Marek/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.3.RELEASE/spring-boot-starter-tomcat-2.3.3.RELEASE.jar;C:/Users/Marek/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar;C:/Users/Marek/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar;C:/Users/Marek/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.37/tomcat-embed-websocket-9.0.37.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-expression/5.2.8.RELEASE/spring-expression-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/springframework/spring-jcl/5.2.8.RELEASE/spring-jcl-5.2.8.RELEASE.jar;C:/Users/Marek/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'TextTransformer 0.1 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'TextTransformer 0.1 API'
+pl.put.poznan.transformer.app
+pl.put.poznan.transformer.logic
+pl.put.poznan.transformer.rest
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/app/TextTransformerApplication.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/BasicTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/CapitalizeTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/DeduplicateTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/ExpandTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/InverseTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/LatexTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/LowerTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/NumbersTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/ShortenTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/TextTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/logic/UpperTransformer.java'
+'C:/Users/Marek/Desktop/io2/IO-L6-Delta-TextTransformer-main/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java'
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.3.3.RELEASE\spring-boot-starter-web-2.3.3.RELEASE.jar = 1733790064177
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-starter\2.3.3.RELEASE\spring-boot-starter-2.3.3.RELEASE.jar = 1733790064289
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot\2.3.3.RELEASE\spring-boot-2.3.3.RELEASE.jar = 1733790064557
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.3.3.RELEASE\spring-boot-autoconfigure-2.3.3.RELEASE.jar = 1733790064814
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.3.3.RELEASE\spring-boot-starter-logging-2.3.3.RELEASE.jar = 1733790064295
+C:\Users\Marek\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar = 1733790064307
+C:\Users\Marek\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar = 1733790064785
+C:\Users\Marek\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar = 1733790064486
+C:\Users\Marek\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar = 1733790064839
+C:\Users\Marek\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar = 1733790064554
+C:\Users\Marek\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar = 1733790064800
+C:\Users\Marek\.m2\repository\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar = 1733790065105
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.3.3.RELEASE\spring-boot-starter-json-2.3.3.RELEASE.jar = 1733790064848
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar = 1733790065913
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar = 1733790065083
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar = 1733790065135
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.2\jackson-datatype-jdk8-2.11.2.jar = 1733790065258
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.2\jackson-datatype-jsr310-2.11.2.jar = 1733790065267
+C:\Users\Marek\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.2\jackson-module-parameter-names-2.11.2.jar = 1733790065316
+C:\Users\Marek\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.3.3.RELEASE\spring-boot-starter-tomcat-2.3.3.RELEASE.jar = 1733790065192
+C:\Users\Marek\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.37\tomcat-embed-core-9.0.37.jar = 1733790066701
+C:\Users\Marek\.m2\repository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar = 1733790065542
+C:\Users\Marek\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.37\tomcat-embed-websocket-9.0.37.jar = 1733790065736
+C:\Users\Marek\.m2\repository\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar = 1733790065613
+C:\Users\Marek\.m2\repository\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar = 1733790066095
+C:\Users\Marek\.m2\repository\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar = 1733790065829
+C:\Users\Marek\.m2\repository\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar = 1733790066176
+C:\Users\Marek\.m2\repository\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar = 1733790066101
+C:\Users\Marek\.m2\repository\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar = 1733790066125
+C:\Users\Marek\.m2\repository\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar = 1733790067937
+C:\Users\Marek\.m2\repository\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar = 1733790067420
+C:\Users\Marek\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar = 1733790068190
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\src\main\java = 1733844140412
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\allclasses-index.html = 1733845843197
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\allpackages-index.html = 1733845843200
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\element-list = 1733845843055
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\help-doc.html = 1733845843234
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\index-all.html = 1733845843226
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\index.html = 1733845843169
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\jquery-ui.overrides.css = 1733845843253
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\member-search-index.js = 1733845843208
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\module-search-index.js = 1733845843203
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\overview-summary.html = 1733845843229
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\overview-tree.html = 1733845843165
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\package-search-index.js = 1733845843205
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\script.js = 1733845843238
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\search.js = 1733845843241
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\stylesheet.css = 1733845843236
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\tag-search-index.js = 1733845843209
+C:\Users\Marek\Desktop\io2\IO-L6-Delta-TextTransformer-main\target\site\apidocs\type-search-index.js = 1733845843207
