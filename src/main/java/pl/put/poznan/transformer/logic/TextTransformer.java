@@ -6,8 +6,7 @@ package pl.put.poznan.transformer.logic;
  * 
  * <p>Przykładowe implementacje obejmują zmienianie wielkości liter, 
  * rozszerzanie skrótów, odwracanie tekstu itp.</p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

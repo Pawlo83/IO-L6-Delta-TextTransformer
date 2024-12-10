@@ -16,20 +16,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * w poszukiwaniu komponentów Spring, takich jak kontrolery REST.
  * </p>
  * 
- * <p>
- * Przykładowe endpointy API:
+ *<p>Przykładowe endpointy API:</p>
+ *
  * <ul>
  *     <li><code>/transform</code> - Punkt końcowy do przekształcania tekstu za pomocą zdefiniowanych transformatorów.</li>
  *     <li><code>/health</code> - Punkt końcowy do sprawdzania stanu aplikacji.</li>
  * </ul>
- * </p>
+
  * 
  * <p>
  * Aby uruchomić aplikację, użyj metody <code>main</code>, która inicjalizuje i uruchamia 
  * kontekst Spring Boot.
  * </p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

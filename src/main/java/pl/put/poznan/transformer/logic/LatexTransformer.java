@@ -3,11 +3,12 @@ package pl.put.poznan.transformer.logic;
 /**
  * Transformator konwertujący specjalne znaki na format zgodny z LaTeX.
  * <p>
- * Zastępuje znaki "\\", "&", "%", "$", "#", "_", "{", "}", "^", "~" odpowiednimi sekwencjami LaTeX.
+ * Zastępuje znaki "\\", "&amp;" "%", "$", "#", "_", "{", "}", "^", "~" odpowiednimi sekwencjami LaTeX.
  * </p>
- * 
+ * @author KZ, PS, MS, ST
+ * @version 1.0
+ * @since   1.0
  * @see TextTransformer
- * @since 1.0
  */
 public class LatexTransformer implements TextTransformer {
 

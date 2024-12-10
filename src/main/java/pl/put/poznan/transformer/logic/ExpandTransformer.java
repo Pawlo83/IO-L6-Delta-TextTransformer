@@ -3,16 +3,14 @@ package pl.put.poznan.transformer.logic;
 /**
  * Transformer rozszerzający skróty w tekście do pełnych form.
  * 
- * <p>Przykładowe rozszerzenia obejmują:
+ * <p>Przykładowe rozszerzenia obejmują:</p>
  * <ul>
  *     <li>"prof." → "Profesor"</li>
  *     <li>"dr" → "Doktor"</li>
  *     <li>"np." → "Na przykład"</li>
  *     <li>"itd." → "I tak dalej."</li>
  * </ul>
- * </p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

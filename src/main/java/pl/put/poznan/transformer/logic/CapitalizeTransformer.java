@@ -5,8 +5,8 @@ package pl.put.poznan.transformer.logic;
  * 
  * <p>Transformacja odbywa się poprzez podzielenie tekstu na słowa, 
  * a następnie zamianę pierwszej litery każdego słowa na wielką literę.</p>
- * 
- * @author  
+ *
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

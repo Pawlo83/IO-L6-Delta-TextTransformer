@@ -17,9 +17,9 @@ import java.util.Arrays;
  * <p>
  * Adres bazowy API: {@code /{text}}
  * </p>
- * 
- * @author
- * @version 1.0
+ *  @author KZ, PS, MS, ST
+ *  @version 1.0
+ *  @since   1.0
  */
 @RestController
 @RequestMapping("/{text}")

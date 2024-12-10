@@ -5,9 +5,10 @@ package pl.put.poznan.transformer.logic;
  * <p>
  * Działa poprzez analizę przekształconego tekstu i eliminację duplikatów wyrazów.
  * </p>
- * 
+ * @author KZ, PS, MS, ST
+ * @version 1.0
+ * @since   1.0
  * @see TextTransformer
- * @since 1.0
  */
 public class DeduplicateTransformer implements TextTransformer {
 

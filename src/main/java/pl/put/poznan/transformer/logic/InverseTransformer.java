@@ -7,8 +7,7 @@ import java.util.List;
  * Transformer odwracający kolejność liter w tekście, zachowując oryginalną kapitalizację.
  * 
  * <p>Transformacja obejmuje odwrócenie całego tekstu oraz przywrócenie wielkości liter na pierwotnych pozycjach.</p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

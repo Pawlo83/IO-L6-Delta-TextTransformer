@@ -4,8 +4,7 @@ package pl.put.poznan.transformer.logic;
  * Transformer zamieniający cały tekst na małe litery.
  * 
  * <p>Transformacja odbywa się poprzez konwersję wszystkich liter w tekście na małe litery.</p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

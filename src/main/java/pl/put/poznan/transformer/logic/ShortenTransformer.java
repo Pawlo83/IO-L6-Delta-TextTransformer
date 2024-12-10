@@ -2,16 +2,14 @@ package pl.put.poznan.transformer.logic;
 
 /**
  * Transformer skracający określone wyrażenia w tekście do ich skrótów.
- * 
- * <p>Przykładowe skróty obejmują:
+ *
+ * <p>Przykładowe skróty obejmują:  </p>
  * <ul>
  *     <li>"na przykład" → "np."</li>
  *     <li>"między innymi" → "m.in."</li>
  *     <li>"i tym podobne" → "itp."</li>
  * </ul>
- * </p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */

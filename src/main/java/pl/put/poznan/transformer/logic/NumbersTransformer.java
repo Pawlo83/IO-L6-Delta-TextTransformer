@@ -5,8 +5,7 @@ package pl.put.poznan.transformer.logic;
  * 
  * <p>Obecnie implementacja nie zawiera logiki przekształcania, jest to miejsce na 
  * dalsze rozwinięcie funkcjonalności.</p>
- * 
- * @author  
+ * @author KZ, PS, MS, ST
  * @version 1.0
  * @since   1.0
  */
