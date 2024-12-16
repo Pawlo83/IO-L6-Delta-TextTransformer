@@ -1,0 +1,46 @@
+name: onPush
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+      - uses: actions/checkout@v2
+      
+      - name: Java setup
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          cache: maven
+          
+      - name: Bulid with Maven
+        run: mvn --batch-mode --update-snapshots verify
+
+      - name: Generate javadoc
+        run: mvn javadoc:javadoc
+
+      - name: Upload Javadoc
+        uses: actions/upload-artifact@v3
+        with:
+          name: javadoc
+          path: target/site/apidocs
+          
+      - name: Notify on failure
+        if: always() #failure()
+        uses: docker://catthehacker/email-action:latest
+        with:
+          server_address: ${{ secrets.EMAIL_SMTP_SERVER }}
+          server_port: ${{ secrets.EMAIL_SMTP_PORT }}
+          username: ${{ secrets.EMAIL_ADDRESS }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Build Failure Notification"
+          body: |
+            The build failed for the repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Commit: ${{ github.sha }}
+            Check the logs for more details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          to: "skiba.pawel.r@gmail.com"
