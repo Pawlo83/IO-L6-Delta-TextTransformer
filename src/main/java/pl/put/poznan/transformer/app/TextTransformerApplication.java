@@ -32,8 +32,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0
  * @since   1.0
  */
-@SpringBootApplication(scanBasePackages =  {"pl.put.poznan.transformer.rest"})
-public class TextTransformerApplication {
+@SpringBootApplication(scanBasePackages = {"pl.put.poznan.transformer.rest"})
+
 
     /**
      * Główna metoda uruchamiająca aplikację Spring Boot.
