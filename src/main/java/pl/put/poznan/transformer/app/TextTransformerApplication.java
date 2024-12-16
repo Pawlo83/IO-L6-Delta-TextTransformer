@@ -32,7 +32,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0
  * @since   1.0
  */
-@SpringBootApplication(scanBasePackages = {"pl.put.poznan.transformer.rest"})
+@SpringBootApplication(scanBasePackages =  {"pl.put.poznan.transformer.rest"})
 public class TextTransformerApplication {
 
     /**
