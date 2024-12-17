@@ -1,5 +1,8 @@
 name: onPush
 
+permissions:
+  contents: write
+  
 on: [push]
 
 jobs:
@@ -20,24 +23,17 @@ jobs:
       - name: Bulid with Maven
         run: mvn --batch-mode --update-snapshots verify
 
-      #- name: Generate javadoc
-      #  run: mvn javadoc:javadoc
+      - name: Generate javadoc
+        run: mvn javadoc:javadoc
 
-      #- name: Upload Javadoc
-      #  uses: actions/upload-artifact@v3
+      - name: Upload Javadoc
+      #  uses: dev-vince/actions-publish-javadoc@v1.0.1
       #  with:
-      #    name: javadoc
-      #    path: target/site/apidocs
-  publish:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Deploy javadoc
-        uses: MathieuSoysal/Javadoc-publisher.yml@v2.5.0
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      
+        uses: actions/upload-artifact@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          java-version: '11'
-          project: maven
-          javadoc-branch: main
-          target-folder: target/site/apidocs
+          name: javadoc
+          path: target/site/apidocs
+
