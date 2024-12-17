@@ -4,7 +4,7 @@ package pl.put.poznan.transformer.logic;
  * Transformer zamieniający cały tekst na wielkie litery.
  * 
  * <p>Transformacja odbywa się poprzez konwersję wszystkich liter w tekście na wielkie litery.</p>
- * @author KZ, PS, MS, ST
+ * @author KZ, PS, MS, 
  * @version 1.0
  * @since   1.0
  */
