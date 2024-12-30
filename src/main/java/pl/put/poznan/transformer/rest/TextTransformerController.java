@@ -15,14 +15,13 @@ import java.util.Arrays;
  * konwersja do formatu LaTeX, itp.
  * </p>
  * <p>
- * Adres bazowy API: {@code /{text}}
+ * Adres bazowy API: {@code /transform?{text}}
  * </p>
  *  @author KZ, PS, MS, ST
  *  @version 1.0
  *  @since   1.0
  */
 @RestController
-@RequestMapping("/{text}")
 public class TextTransformerController {
 
     /**
@@ -40,8 +39,8 @@ public class TextTransformerController {
      * @param transforms Tablica nazw transformacji do zastosowania (np. "upper", "lower", "latex").
      * @return Przekształcony tekst jako ciąg znaków w formacie JSON.
      */
-    @RequestMapping(method = RequestMethod.GET, produces = "application/json")
-    public String get(@PathVariable String text,
+    @RequestMapping("/transform")
+    public String transform(@RequestParam(value = "text", defaultValue = "") String text,
                       @RequestParam(value = "transforms", defaultValue = "") String[] transforms) {
 
         // Logowanie parametrów żądania
