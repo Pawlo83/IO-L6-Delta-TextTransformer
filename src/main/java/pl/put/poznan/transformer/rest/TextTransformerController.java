@@ -78,6 +78,9 @@ public class TextTransformerController {
                 case "deduplicate":
                     transformer = new DeduplicateTransformer(transformer);
                     break;
+                case "punctuation":
+                    transformer = new PunctuationTransformer(transformer);
+                    break;
                 default:
                     logger.warn("Nieznana transformacja: {}", transform);
                     break;
