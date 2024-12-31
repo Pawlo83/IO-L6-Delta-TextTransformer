@@ -35,17 +35,50 @@ public class LatexTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
+        StringBuilder result = new StringBuilder();
+        boolean quotation = false;
+        for (char c : transformed.toCharArray()) {
+            switch (c) {
+                case '\\':
+                    result.append("\\textbackslash{}");
+                    break;
+                case '&':
+                    result.append("\\&");
+                    break;
+                case '%':
+                    result.append("\\%");
+                    break;
+                case '$':
+                    result.append("\\$");
+                    break;
+                case '#':
+                    result.append("\\#");
+                    break;
+                case '_':
+                    result.append("\\_");
+                    break;
+                case '{':
+                    result.append("\\{");
+                    break;
+                case '}':
+                    result.append("\\}");
+                    break;
+                case '^':
+                    result.append("\\textasciicircum{}");
+                    break;
+                case '~':
+                    result.append("\\textasciitilde{}");
+                    break;
+                case '\"':
+                    result.append(quotation ? "}" : "\\textit{");
+                    quotation = !quotation;
+                    break;
+                default:
+                    result.append(c);
+                    break;
+            }
+        }
 
-        return transformed
-                .replace("\\", "\\textbackslash{}")
-                .replace("&", "\\&")
-                .replace("%", "\\%")
-                .replace("$", "\\$")
-                .replace("#", "\\#")
-                .replace("_", "\\_")
-                .replace("{", "\\{")
-                .replace("}", "\\}")
-                .replace("^", "\\textasciicircum{}")
-                .replace("~", "\\textasciitilde{}");
+        return result.toString();
     }
 }
