@@ -57,7 +57,7 @@ public class NumbersTransformer implements TextTransformer {
     @Override
     public String transform(String text) {
         String transformed = base.transform(text);
-        StringTokenizer tokenizer = new StringTokenizer(transformed, " .,!?\"()", true);
+        StringTokenizer tokenizer = new StringTokenizer(transformed, " .,!?\"(){}[]:;@#$%^&*-_+|~<>=`'«»‹›", true);
         StringBuilder result = new StringBuilder();
 
         while (tokenizer.hasMoreTokens()) {
@@ -85,7 +85,7 @@ public class NumbersTransformer implements TextTransformer {
     }
 
     private static boolean isPunctuation(String token) {
-        return ".,!?\"()".contains(token);
+        return ".,!?\"(){}[]:;@#$%^&*-_+|~<>=`'«»‹›".contains(token);
     }
 
     public static String convertToWords(int number) {
