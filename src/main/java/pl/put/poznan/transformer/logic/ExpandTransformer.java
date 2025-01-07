@@ -55,7 +55,28 @@ public class ExpandTransformer implements TextTransformer {
                     expanded.append(upper ? "Na przykład" : "na przykład");
                     break;
                 case "itd.":
-                    expanded.append(upper ? "I tak dalej." : "i tak dalej.");
+                    expanded.append(upper ? "I tak dalej" : "i tak dalej");
+                    break;
+                case "m.in.":
+                    expanded.append(upper ? "Między innymi" : "między innymi");
+                    break;
+                case "tzn.":
+                    expanded.append(upper ? "To znaczy" : "to znaczy");
+                    break;
+                case "itp.":
+                    expanded.append(upper ? "I tym podobne" : "i tym podobne");
+                    break;
+                case "r.":
+                    expanded.append(upper ? "Rok" : "rok");
+                    break;
+                case "st.":
+                    expanded.append(upper ? "Stopień" : "stopień");
+                    break;
+                case "tzw.":
+                    expanded.append(upper ? "Tak zwany" : "tak zwany");
+                    break;
+                case "tj.":
+                    expanded.append(upper ? "To jest" : "to jest");
                     break;
                 default:
                     expanded.append(word);

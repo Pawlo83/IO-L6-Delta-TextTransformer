@@ -40,10 +40,16 @@ public class ShortenTransformer implements TextTransformer {
         String transformed = base.transform(text);
 
         return transformed.replaceAll("na przykład", "np.")
-                         .replaceAll("Na przykład", "Np.")
-                         .replaceAll("między innymi", "m.in.")
-                         .replaceAll("Między innymi", "M.in.")
-                         .replaceAll("i tym podobne", "itp.")
-                         .replaceAll("I tym podobne", "Itp.");
+                .replaceAll("Na przykład", "Np.")
+                .replaceAll("między innymi", "m.in.")
+                .replaceAll("Między innymi", "M.in.")
+                .replaceAll("i tym podobne", "itp.")
+                .replaceAll("I tym podobne", "Itp.")
+                .replaceAll("tak zwany", "tzw.")
+                .replaceAll("Tak zwany", "Tzw.")
+                .replaceAll("to jest", "tj.")
+                .replaceAll("To jest", "Tj.")
+                .replaceAll("w związku z tym", "w.z.t.")
+                .replaceAll("W związku z tym", "W.z.t.");
     }
 }
