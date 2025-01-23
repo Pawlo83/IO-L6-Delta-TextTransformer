@@ -56,6 +56,10 @@ public class PunctuationTransformer implements TextTransformer {
                         result.append(' ');
                     }
                 }
+
+                if (current == '(' && i + 1 < transformed.length() && transformed.charAt(i + 1) == ' ') {
+                    i++;
+                }
             }
             else {
                 if (current != ' ' || (result.length() > 0 && result.charAt(result.length() - 1) != ' ')) {
