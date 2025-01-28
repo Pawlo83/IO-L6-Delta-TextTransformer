@@ -11,6 +11,9 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 - Jako użytkownik mogę rozwijać wybrane skróty do pełnych postaci (Pan Prof. spóźnił się na zajęcia -> Pan Profesor spóźnił się na zajęcia)
 - Jako użytkownik mogę eliminować powtarzające się wyrazy w bezpośrednim sąsiedztwie (Wyślij do do mnie wiadomość -> Wyślij do mnie wiadomość)
 
+## Końcowy diagram UML
+![image](https://github.com/user-attachments/assets/466332c8-3582-4d69-8061-4a6be15ad089)
+
 ## Wymagania
 - Java 11 lub nowsza.
 - ...
@@ -20,6 +23,3 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 - Maciej Szymaniak - [GitHub](https://github.com/masz00)
 - Szymon Tadych - [GitHub](https://github.com/szymont20)
 - Kacper Zatoń - [GitHub](https://github.com/KacperZaton)
-
-## Końcowy diagram UML
-![image](https://github.com/user-attachments/assets/466332c8-3582-4d69-8061-4a6be15ad089)
