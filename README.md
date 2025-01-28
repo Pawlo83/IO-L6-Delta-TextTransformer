@@ -20,3 +20,5 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 - Maciej Szymaniak - [GitHub](https://github.com/masz00)
 - Szymon Tadych - [GitHub](https://github.com/szymont20)
 - Kacper Zatoń - [GitHub](https://github.com/KacperZaton)
+
+![image](https://github.com/user-attachments/assets/466332c8-3582-4d69-8061-4a6be15ad089)
