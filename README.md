@@ -21,4 +21,5 @@ Dla osób pracujących z danymi tekstowymi nasza aplikacja Text Transformer umo�
 - Szymon Tadych - [GitHub](https://github.com/szymont20)
 - Kacper Zatoń - [GitHub](https://github.com/KacperZaton)
 
+## Końcowy diagram UML
 ![image](https://github.com/user-attachments/assets/466332c8-3582-4d69-8061-4a6be15ad089)
